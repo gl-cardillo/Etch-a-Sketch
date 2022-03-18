@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet"  href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>etch-a-sketch</title>
+</head>
+<body>
+  <div class="title">
+    <h1>ETCH-A-SKETCH</h1>
+  </div>
+  <div class="controll">
+    <div>
+      <div class="showSize"></div>
+      <input class="inputSize" type="range" min="2" max="100" value="16" onchange="updateGrid(value)">
+  </div>
+    <button class="resetButton">Reset</button>
+    <button class="blackButton">Black</button>
+    <button class="rainbowButton">Rainbow</button>
+  </div>
+  <div class="gridContainer"></div>
+  <footer>Etch-A-Sketch project from The Odin Project by Luca Cardillo</footer>
+</body>
+</html>

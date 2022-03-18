@@ -1,0 +1,82 @@
+html {
+  text-align: center;
+  margin: 0;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Pacifico', cursive;
+  height: 100%;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 50px;
+}
+
+.gridContainer {
+
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  justify-content: center; 
+  width: 370px;
+  height: 370px;
+} 
+
+.grid {
+  display: grid;
+  grid-template: repeat(16, 1fr) / repeat(16/fr);
+  
+}
+
+.active {
+  background-color: black !important;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white;
+  margin: 0 10px 20px 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: 'Pacifico', cursive;
+
+}
+
+button:hover {
+  padding: 11px 21px;
+  margin-bottom: 18px;
+  border: 2px solid rgb(14, 184, 14);
+}
+
+.resetButton {
+  margin-top: 20px;
+}
+
+.blackButton {
+  color: white;
+  background-color: black;
+}
+
+.rainbowButton {
+  background-image: url('./rainbow.jpeg');
+}
+
+p {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.inputSize {
+  width: 250px;
+}
+
+footer {
+  bottom: 5px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
