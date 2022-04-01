@@ -5,7 +5,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Pacifico', cursive;
-  height: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -75,8 +75,7 @@ p {
 footer {
   bottom: 5px;
   left: 0;
-  position: absolute;
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
-  
+  margin-top: 20px;
 }
